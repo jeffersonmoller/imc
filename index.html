@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <form class="formulario" id="formulario">
-            <label id="peso" for="peso">Informe seu peso (kg)</label>
-            <input type="number" name="peso" id="peso">
+    <div class="container">
+        <!-- Início do formulário IMC -->
+        <form class="formulario" id="formulario">
+            <!-- Campo para inserção do peso -->
+            <label class="peso" id="pesoLabel" for="peso">Informe seu peso (kg)</label>
+            <input class="peso" type="number" name="peso" id="pesoInput">
 
-            <label id="altura" for="altura">Informe sua altura (cm)</label>
-            <input type="number" name="altura"id="altura">
+            <!-- Campo para inserção da altura -->
+            <label class="altura" id="alturaLabel" for="altura">Informe sua altura (cm)</label>
+            <input class="altura" type="number" name="altura" id="alturaInput">
 
+            <!-- Botão para acionar o cálculo -->
             <button id="botaoEnviar" onclick="calcular();">Calcular</button>
-    </form>
+        </form>
+        <!-- Fim do formulário IMC -->
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
