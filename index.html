@@ -1,29 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMC</title>
-    <link rel="stylesheet" href="style.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" /> <!-- Inclui o arquivo de estilo CSS -->
+  </head>
+  <body>
     <div class="container">
+      <div>
         <!-- Início do formulário IMC -->
         <form class="formulario" id="formulario">
-            <!-- Campo para inserção do peso -->
-            <label class="peso" id="pesoLabel" for="peso">Informe seu peso (kg)</label>
-            <input class="peso" type="number" name="peso" id="pesoInput">
+            <label>Cadastro</label>
+            <!-- Campo para inserção do nome -->
+          <label class="nome" id="nomeLabel" for="nome">Informe seu nome</label>
+          <input class="nome" type="text" name="nome" id="nomeInput" />
+          
+          <!-- Campo para inserção do peso -->
+          <label class="peso" id="pesoLabel" for="peso">Informe seu peso (kg)</label>
+          <input class="peso" type="text" name="peso" id="pesoInput" />
 
-            <!-- Campo para inserção da altura -->
-            <label class="altura" id="alturaLabel" for="altura">Informe sua altura (cm)</label>
-            <input class="altura" type="number" name="altura" id="alturaInput">
+          <!-- Campo para inserção da altura -->
+          <label class="altura" id="alturaLabel" for="altura">Informe sua altura (cm)</label>
+          <input class="altura" type="text" name="altura" id="alturaInput" />
 
-            <!-- Botão para acionar o cálculo -->
-            <button id="botaoEnviar" onclick="calcular();">Calcular</button>
+          <!-- Botão para acionar o cálculo -->
+          <button id="botaoEnviar" onclick="calcular();">Calcular</button>
         </form>
         <!-- Fim do formulário IMC -->
+      </div>
+      <div>
+        <!-- Início tabela IMC -->
+        <table class="table">
+          <caption>Registros</caption>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Peso</th>
+              <th>Altura</th>
+              <th>IMC</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>The table body</td>
+              <td>The table body</td>
+              <td>The table body</td>
+              <td>The table body</td>
+              <td>The table body</td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Fim tabela IMC -->
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+    <script src="script.js"></script> <!-- Inclui o arquivo JavaScript -->
+  </body>
 </html>
