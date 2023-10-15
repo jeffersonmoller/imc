@@ -44,9 +44,11 @@ git clone https://github.com/JeffersonMoller/imc.git
 index.html
 ```
 
-## Contribuição
+## Visualização do Projeto
 
-Sinta-se à vontade para contribuir para este projeto. Se você encontrar problemas ou tiver melhorias a serem sugeridas, crie uma "issue" ou envie um "pull request."
+Você pode visualizar o projeto em https://jeffersonmoller.github.io/imc/.
+
+
 
 ## Licença
 
