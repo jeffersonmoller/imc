@@ -1,16 +1,26 @@
 # IMC (Índice de Massa Corporal)
 
+## Qualidade de Código
+
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-white.svg)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=JeffersonMoller_imc)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=bugs)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=coverage)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=JeffersonMoller_imc)
+
+## Métricas de Código
+
+- ![Vulnerabilidades](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=vulnerabilities)
+- ![Bugs](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=bugs)
+- ![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=code_smells)
+- ![Duplicação de Linhas](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=duplicated_lines_density)
+
+## Desempenho e Confiabilidade
+
+- ![Segurança](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=security_rating)
+- ![Manutenibilidade](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=sqale_rating)
+- ![Confiabilidade](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=reliability_rating)
+
+## Cobertura de Código
+
+- ![Cobertura de Testes](https://sonarcloud.io/api/project_badges/measure?project=JeffersonMoller_imc&metric=coverage)
+
 
 ## Descrição
 
@@ -34,9 +44,11 @@ git clone https://github.com/JeffersonMoller/imc.git
 index.html
 ```
 
-## Contribuição
+## Visualização do Projeto
 
-Sinta-se à vontade para contribuir para este projeto. Se você encontrar problemas ou tiver melhorias a serem sugeridas, crie uma "issue" ou envie um "pull request."
+Você pode visualizar o projeto em https://jeffersonmoller.github.io/imc/.
+
+
 
 ## Licença
 
