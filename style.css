@@ -1,8 +1,14 @@
-/* Estilos gerais para .peso, .altura e #botaoEnviar */
-.peso, .altura, #botaoEnviar {
+/* Estilos gerais para .peso, .altura, .nome e #botaoEnviar */
+.peso, .altura, .nome, #botaoEnviar {
     text-align: center; /* Centraliza o texto horizontalmente */
     display: block; /* Exibe os elementos como blocos */
     margin: 5px; /* Adiciona margem de 5px */
+}
+
+/* Estilos específicos para os inputs #pesoInput, #alturaInput e #nomeInput */
+#pesoInput, #alturaInput, #nomeInput {
+    width: 300px; /* Largura de 300px */
+    height: 30px; /* Altura de 30px */
 }
 
 /* Estilos específicos para o botão #botaoEnviar */
@@ -12,15 +18,10 @@
     margin-top: 10px; /* Adiciona margem superior de 10px */
 }
 
-/* Estilos específicos para os inputs #pesoInput e #alturaInput */
-#pesoInput, #alturaInput {
-    width: 300px; /* Largura de 300px */
-    height: 30px; /* Altura de 30px */
-}
-
 /* Estilos para centralizar o container */
 .container {
     display: flex; /* Usa o modelo flexbox */
+    flex-direction: column; /* Organiza os elementos verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     height: 100vh; /* Altura de 100% da viewport */
@@ -32,4 +33,22 @@
     display: flex; /* Usa o modelo flexbox */
     flex-direction: column; /* Organiza os elementos verticalmente */
     align-items: center; /* Centraliza os elementos do formulário verticalmente */
+    height: 100%; /* Define a altura como 100% do contêiner pai */
+}
+
+/* Estilos da tabela */
+.table {
+    margin-top: 10px; /* Adiciona margem superior de 10px */
+    width: 100%; /* Define a largura como 100% do contêiner */
+    border-collapse: collapse; /* Colapsa as bordas das células da tabela */
+}
+
+.table th, .table td {
+    border: 1px solid #333; /* Define uma borda de 1px sólida com a cor #333 */
+    padding: 5px; /* Adiciona um preenchimento de 5px nas células */
+}
+
+.table thead {
+    background-color: #333; /* Define o fundo da cabeça da tabela com a cor #333 */
+    color: #fff; /* Define a cor do texto como branco (#fff) */
 }
