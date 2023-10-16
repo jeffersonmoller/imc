@@ -35,7 +35,7 @@ Você pode usar esta aplicação para calcular o IMC fornecendo seu peso em quil
 1. Clone o repositório:
 
 ```
-git clone https://github.com/JeffersonMoller/imc.git
+git clone https://github.com/jeffersonmoller/imc.git
 ```
 
 2. Abra o arquivo HTML em um navegador da web:
